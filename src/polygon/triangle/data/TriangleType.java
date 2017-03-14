@@ -1,7 +1,7 @@
 /**
  * 
  */
-package polygon.data.triangle;
+package polygon.triangle.data;
 
 /**
  * @author rohit

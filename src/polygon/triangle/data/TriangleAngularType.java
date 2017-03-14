@@ -1,4 +1,4 @@
-package polygon.data.triangle;
+package polygon.triangle.data;
 
 public enum TriangleAngularType {
 	RIGHTANGLE ("Right Angle"),

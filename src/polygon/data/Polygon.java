@@ -11,9 +11,26 @@ import java.util.List;
  *
  */
 public class Polygon {
-	List<BigDecimal> sides;
+	private List<BigDecimal> sides;
 	
-	public Polygon(List<BigDecimal> sides) {
+	protected Polygon(List<BigDecimal> sides) {
+		this.setSides(sides);
+	}
+
+	public List<BigDecimal> getSides() {
+		return sides;
+	}
+
+	private void setSides(List<BigDecimal> sides) {
 		this.sides = sides;
+	}
+	
+	@Override
+	public String toString(){
+		String result = "Sides:";
+		for(BigDecimal side : sides){
+			result += "\t"+side;
+		}
+		return result;
 	}
 }

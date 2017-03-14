@@ -1,4 +1,4 @@
-package polygon.data.triangle;
+package polygon.triangle.data;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -24,4 +24,11 @@ public class Triangle extends Polygon{
 		return triangleAngularType;
 	}
 	
+	@Override
+	public String toString(){
+		String result = super.toString();
+		result += "\nTriangle type: " + this.triangleType.displayText();
+		result += "\nTriangle angular type: " + this.triangleAngularType.displayText();
+		return result;
+	}
 }
