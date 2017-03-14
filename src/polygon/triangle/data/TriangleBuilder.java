@@ -58,7 +58,7 @@ public class TriangleBuilder {
 		else if(compare > 0)
 			return TriangleAngularType.ACUTE;
 		
-		else return TriangleAngularType.OBSTUSE;
+		else return TriangleAngularType.OBTUSE;
 		
 	}
 	

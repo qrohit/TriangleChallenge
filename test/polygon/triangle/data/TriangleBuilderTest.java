@@ -146,7 +146,7 @@ public class TriangleBuilderTest  {
 		sides.add(new BigDecimal("6"));
 		
 		Triangle triangle = TriangleBuilder.buildTriangle(sides);
-		Assert.assertEquals(triangle.getTriangleAngularType(), TriangleAngularType.OBSTUSE);
+		Assert.assertEquals(triangle.getTriangleAngularType(), TriangleAngularType.OBTUSE);
 
 	}
 	

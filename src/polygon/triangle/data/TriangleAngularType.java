@@ -3,7 +3,7 @@ package polygon.triangle.data;
 public enum TriangleAngularType {
 	RIGHTANGLE ("Right Angle"),
 	ACUTE ("Actue"),
-	OBSTUSE ("Obstuse");
+	OBTUSE ("Obtuse");
 	
 	String value;
 	
